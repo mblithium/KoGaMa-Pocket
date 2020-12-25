@@ -6,11 +6,11 @@ In this version you will be able to monitor your main KoGaMa profile, get inform
 
 ## Screenshots
 
-![https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanner.png]
+![Profile View](https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanner.png)
 
-![https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanner2.png]
+![Search Items](https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanner2.png)
 
 ## Download
 
 ### Browsers:
-[Microsoft Edge (Chromium)](https://microsoftedge.microsoft.com/addons/detail/kogama-pocket/gchjcnoeipcpcaofapohombligjpijie) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kogama-pocket/) | [Opera (Coming soon)](#)
+[Microsoft Edge (Chromium)](https://microsoftedge.microsoft.com/addons/detail/kogama-pocket/gchjcnoeipcpcaofapohombligjpijie) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kogama-pocket/) | Opera (Coming soon)
