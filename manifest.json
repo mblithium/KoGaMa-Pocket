@@ -1,0 +1,23 @@
+{
+    "name": "KoGaMa Pocket",
+    "version": "0.0.0.1",
+    "author": "Matheus Bastos",
+    "manifest_version": 2,
+    "description": "KoGaMa Pocket brings some interesting features to kogama through a popup extension in your browser.",
+    "icons": {
+        "16": "icons/KoGaMa-Pocket16.png",
+        "32": "icons/KoGaMa-Pocket32.png",
+        "48": "icons/KoGaMa-Pocket48.png",
+        "128": "icons/KoGaMa-Pocket128.png"
+    },
+    "permissions": [
+      "webRequest",
+      "storage",
+      "https://*.kogama.com/",
+      "https://kogama.com.br/",
+      "https://*.kgoma.com/"
+    ],
+    "browser_action": {
+        "default_popup": "popup/popup.html"
+    }
+}

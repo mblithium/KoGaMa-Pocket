@@ -1,0 +1,120 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>KoGaMa Pocket</title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <div id="app">
+            <div class="apptitle">
+                <h1 id="h1">KoGaMa Pocket - ALPHA</h1> <!-- KoGaMa Profile Viewer -->
+            </div>
+            <div id="navigation">
+                <img src="../img/error.png" id="logout" title="Click here to disconnect"/>
+                <img src="../img/back.png" id="back" title="Click here to return to the previous screen"/>
+                <img src="../img/search.png" class="pages" id="searchPageActive" title="Click here to search anything"/>
+                <img src="../img/notebook.png" class="pages" id="notes"/>
+                <img src="../img/info.png" class="pages" id="about" title="Click here to see information about this addon."/> 
+            </div>
+            <dic id="content">
+                <div id="profileview">
+                    <div class="userName">
+                        <h1 id="name"></span>
+                    </div>
+
+                    <a href="#" id="profileurl"><img id="avatar"/></a>
+                    <span id="badges"></span>  
+
+                    <div class="infos">
+                        <div class="element">
+                            <img id="levelimg" alt='Click here to acess your profile'/>
+                        </div>
+                        <div class="element">
+                            <b>XP:</b> <span id="xp"></span>
+                        </div>
+                        <div class="element">
+                        <img src="../img/gold.png"><b><span id="golds"></b></span> 
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="loginpage">
+                    <div>
+                        <img class="loginicon" src="../img/user.png"/>
+                    </div>
+                    <div>
+                        <input class="inputbox" type="text" placeholder="Type your KoGaMa ID here." value="">
+                        <input id="loginButton" type="button" value="Login">
+                    </div>
+                    <div>
+                        <select id="server-select">
+                            <option value="">-- Choose your server --</option>
+                            <option value="https://www.kogama.com">Live</option>
+                            <option value="https://kogama.com.br">BR</option>
+                            <option value="https://friends.kogama.com">Friends</option>
+                        </select>
+                    </div>
+                    <div class="example">
+                        <span>Example:</span><br>
+                        <img src="../img/exampleid.png" alt="Example ID - 741327">
+                    </div>
+                </div>
+                <div id="searchPage">
+                    <div>
+                        <input type="text" id="searchTerms"><input type="button" id="searchButton" value="Search">
+                    </div>
+                    <div>
+                        <select id="item-select">
+                            <option value="">-- Choose your item --</option>
+                            <option value="avatar">Avatar</option>
+                            <option value="model">Model</option>
+                        </select>
+                    </div>
+                    <div id="searchElements">
+
+                    </div>
+                    <div id="searchNav">
+                        <input type="button" id="searchnextpage" value="Next page"/>
+                    </div>
+                </div>
+                <div id="koganotes">
+                    <div id="createNote">
+                        <label for="typeNotes">Create new notes</label>
+                        <input type="text" id="typeProjectURL" placeholder="Type your project URL here." value=""><br>
+                        <textarea id="typeNotes" name="typeNotes" maxlength="1000" placeholder="Type your note here." value="" minlength="1">
+                        </textarea><br>
+                        <input type="button" id="saveNote" value="Save">
+                    </div>
+                    <div id="notes">
+                        <h1>Your notes:</h1>
+                    </div>
+                </div>
+                <div id="aboutpage">
+                    <div>
+                        <h1>About:</h1>
+                        <p>This add-on was created to complement your KoGaMa experience in a compact and simple way - just a popup in your browser.</p>
+                    </div>
+                    <div>
+                        <h1>Credits:</h1>
+                        <h2>Icons</h2>
+                        <p> <a href="https://www.flaticon.com/authors/smashicons" target="_blank">flatuicon - Author: smashicons</a></p>
+                    </div>
+                    <div>
+                        <h1>Dev</h1>
+                        <p><a href="https://github.com/mblithium" target="_blank">mblithium</a></p>
+                    </div>
+                    <div>
+                        <h1>Changelogs:</h1>
+                        <p>0.0.0.1 - ALPHA</p>
+                    </div>
+                </div>
+                <div id="errorpage">
+                    <h1>Erro Inesperado</h1>
+                    <p>Ocorreu algum erro ao requisitar as informações no servidor. Pode ser algum erro temporário ou talvez você não esteja logado com sua conta do KoGaMa. Verifique sua conexão ou se você está logado no KoGaMa e tente novamente. Caso o problema persista, clique no botão vermelho para desconectar e coloque sua ID novamente. </p>
+                </div>
+            </dic>
+        </div>
+        <script src="../scripts/extension.js"></script>
+        <script src="../scripts/render.js"></script>
+    </body>
+</html>
