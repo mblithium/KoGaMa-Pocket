@@ -4,6 +4,12 @@ KoGaMa Pocket brings some interesting features to kogama through a popup extensi
 
 In this version you will be able to monitor your main KoGaMa profile, get information on the wiki about your emblems and search for models and avatars. Probably more features in the future.
 
+## Screenshots
+
+![https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanner.png]
+
+![https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanner2.png]
+
 ## Download
 
 ### Browsers:
