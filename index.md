@@ -13,4 +13,4 @@ In this version you will be able to monitor your main KoGaMa profile, get inform
 ## Download
 
 ### Browsers:
-[Microsoft Edge (Chromium)](https://microsoftedge.microsoft.com/addons/detail/kogama-pocket/gchjcnoeipcpcaofapohombligjpijie) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kogama-pocket/) | Opera (Coming soon)
+[Microsoft Edge (Chromium)](https://microsoftedge.microsoft.com/addons/detail/kogama-pocket/gchjcnoeipcpcaofapohombligjpijie) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kogama-pocket/) | [Opera](https://addons.opera.com/en-US/extensions/details/kogama-pocket/)
