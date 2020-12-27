@@ -20,4 +20,4 @@ Unfortunately, the **Chrome Web Store** charges a $5 fee to create a developer a
 
 You can see a simple example of this as follows:
 
-![Example install CRX package](https://github.com/mblithium/KoGaMa-Pocket/blob/gh-pages/img/HowToInstallCRX-Chrome.gif)
+![Example install CRX package](https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/HowToInstallCRX-Chrome.gif)
