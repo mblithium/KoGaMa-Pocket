@@ -1,0 +1,113 @@
+body {
+    background-color: #2f3640;
+    width: 400px;
+    height: 310px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    size: 10px;
+}
+
+a {
+    color: white;
+}
+
+#app {
+    max-height: 400px;
+    height: 310px;
+    /* This prevents the popup window from increasing its size. */
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+#content {
+    position: relative;
+    top: 70px;
+}
+#profileview {
+    display: none;
+}
+
+#avatar {
+    border-radius: 10px;
+    margin: 30px;
+    width: 60px;
+    float: left;
+}
+
+.apptitle {
+    position: fixed;
+    background-color: #353b48;
+    padding: 5px;
+    width: 100%;
+    height: 35px;
+    z-index: 9999;
+}
+.apptitle h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.userName h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+}
+.infos .element {
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    background-color: none;
+    flex-grow: 1;
+}
+
+.infos .element img {
+    width: 32px;
+}
+
+#badges img {
+    width: 26px;
+}
+
+.infos .element b {
+    font-size: 15px;
+}
+
+#navigation {
+    background-color: #353b48;
+    padding: 5px;
+    position: fixed;
+    top: 38px;
+    width: 100%;
+    height: 30px;
+    align-content: flex-end;
+    z-index: 9999;
+}
+#navigation img {
+    display: inline-block;
+    width: 20px;
+}
+
+#navigation .hidden {
+    display: none;
+}
+
+#navigation #back {
+    display: none;
+}
+
+#errorpage {
+    display: none;
+    padding: 15px;
+}
+
+

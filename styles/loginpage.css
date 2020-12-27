@@ -1,0 +1,49 @@
+#loginpage {
+    top: 20px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#loginpage .loginicon {
+    width: 25%;
+    text-align: center;
+}
+
+#loginpage .inputbox {
+    text-align: center;
+    margin: 10px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+#loginpage #loginbutton {
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 45px;
+    height: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+#loginpage #server-select {
+    width: 220px;
+    height: 30px;
+}
+
+#loginpage p {
+    padding: 15px;
+}
+
+#loginpage div {
+    margin: 20px 0px 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+#loginpage .example img {
+    width: 250px;
+}

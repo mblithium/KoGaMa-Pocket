@@ -1,0 +1,20 @@
+div#aboutpage {
+    margin-top: 0;
+    padding: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#notes {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    padding: 3px, 0, 3px, 30px;
+}
+#notes #dev {
+    text-align: right;
+    width: 100%;
+    display: none;
+}

@@ -1,0 +1,41 @@
+div#searchPage {
+    display: none;
+    flex-direction: column;
+}
+
+div#searchPage div {
+    width: auto;
+    padding: 20px;
+}
+div#searchPage #searchTerms {
+    width: auto;
+    height: 30px;
+}
+div#searchPage #searchButton {
+    width: auto;
+    height: 30px;
+}
+
+div#searchPage #searchElements img {
+    margin: 5px;
+}
+div#searchPage #searchElements .itensIMG {
+    width: 100px;
+    border-radius: 6px;
+}
+
+#searchnextpage {
+    width: 100px;
+    height: 30px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+#searchPage > div:nth-child(2) {
+    margin: 0;
+    padding: 0 20px;
+}
