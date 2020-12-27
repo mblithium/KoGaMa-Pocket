@@ -14,3 +14,10 @@ In this version you will be able to monitor your main KoGaMa profile, get inform
 
 ### Browsers:
 [Microsoft Edge (Chromium)](https://microsoftedge.microsoft.com/addons/detail/kogama-pocket/gchjcnoeipcpcaofapohombligjpijie) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/kogama-pocket/) | [Opera](https://addons.opera.com/en-US/extensions/details/kogama-pocket/)
+
+### And in Chrome and other browsers?
+Unfortunately, the **Chrome Web Store** charges a $5 fee to create a developer account to publish the extension. In addition, it is not feasible to publish in all extension stores. If it is not listed in the downloads, you can download .crx package and install it just by dragging the file to your browser. [Download CRX file](https://github.com/mblithium/KoGaMa-Pocket/releases)
+
+You can see a simple example of this as follows:
+
+![Example install CRX package](https://github.com/mblithium/KoGaMa-Pocket/blob/gh-pages/img/HowToInstallCRX-Chrome.gif)
