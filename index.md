@@ -15,6 +15,8 @@ To connect your account is very simple. You must first be logged in to a KoGaMa 
 
 ![Search Items](https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanner2.png)
 
+![Create Notes](https://github.com/mblithium/KoGaMa-Pocket/raw/gh-pages/img/OperaBanne3.png)
+
 ## Download
 
 ### Browsers:
