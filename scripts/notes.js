@@ -79,6 +79,9 @@ function readNotes() {
         updateNoteButton.type = 'button'
         updateNoteButton.className = 'updateNoteButton'
         updateNoteButton.value = 'Update'
+        updateNoteButton.addEventListener("click", () => {
+            return updateNote(n, typeBoxName.value, typeBoxLink.value, typeBoxNote.value)
+        })
 
         noteCard.appendChild(deleteNoteButton);
         noteCard.appendChild(labelName);
@@ -138,7 +141,12 @@ function createNote(notename, notelink, notetext) {
 }
 
 function updateNote(id, name, link, text) {
-
+    let retrievedNote = localStorage.getItem('notebook');
+    let notebook = JSON.parse(retrievedNote);
+    notebook[id].name = name;
+    notebook[id].link = link;
+    notebook[id].text = text;
+    return localStorage.setItem('notebook', JSON.stringify(notebook));
 }
 
 // Erase notes by index.
@@ -147,7 +155,7 @@ function eraseNote(i) {
     let notebook = JSON.parse(retrievedNote);
     console.log(notebook);
     notebook.splice(i, 1);
-    console.log(`O valor de i é ${i}.`);
+    console.log(`Delete note: ${i}.`);
     console.log(notebook);
     localStorage.setItem('notebook', JSON.stringify(notebook));
 }
@@ -165,7 +173,7 @@ function verifyNote() {
     console.log(newNote.note.value);
 
     if (newNote.note.value == '' || newNote.name.value == '') {
-        alert('Você precisa digitar algo no nome da nota e conteúdo.');
+        alert('You need to type something in the note name and content.');
     } else {
         return createNote(newNote.name.value, newNote.link.value, newNote.note.value);
     }

@@ -38,7 +38,7 @@ const renderStats = {
     previousScreen: ''
 }
 
-// Renderizar telas
+// Render screens
 function render(action) {
     // Identificadores das telas.
     const ScreenElem = {
@@ -55,7 +55,7 @@ function render(action) {
 
     console.log(ScreenElem.pages);
 
-    // Ações
+    // Actions
     switch(action) {
         case 'loginPage':
             loginPage(true);
@@ -109,7 +109,7 @@ function render(action) {
           return console.log(`Render action: ${action}`);
     }
     
-    // Funções correspondentes
+
     function koganotePage(value) {
         if (value == true) {
             let newNote = {
@@ -130,13 +130,13 @@ function render(action) {
     }
     function loginPage(value) {
         if (value == true) { 
-            // Mostra a tela de login.
+            // Show the login screen.
             ScreenElem.login_Page.style.display = 'flex';
             renderStats.previousScreen = renderStats.activeScreen;
             renderStats.activeScreen = 'loginPage';
             verifyScreen(value);
         } else { 
-            // Oculta a tela de login.
+            // Hides the login screen.
             ScreenElem.login_Page.style.display = 'none';
         }
     }
@@ -165,14 +165,14 @@ function render(action) {
     }
     function errorPage(value) {
         if (value == true) { 
-            // Mostra a tela de login.
+            // Shows the error screen.
             ScreenElem.error_Page.style.display = 'flex';
             hiddenPages(true);
             renderStats.previousScreen = renderStats.activeScreen;
             renderStats.activeScreen = 'loginPage';
             verifyScreen(value)
         } else { 
-            // Oculta a tela de login.
+            // Hides the error screen.
             ScreenElem.error_Page.style.display = 'none';
         }
     }
@@ -240,7 +240,7 @@ function checkSave() {
 }
 
 function logoutUser() {
-    /* Deslogar a ID do usuário */
+    /* Disconnect the user ID */
     document.getElementById('profileview').style.display = 'none';
     document.getElementById('errorpage').style.display = 'none';
     localStorage.setItem('userid', '');
@@ -248,7 +248,7 @@ function logoutUser() {
 }
 
 function login() {
-    // Pegar ID da caixa e tentar logar.
+    // Get ID from the box and try to login.
     let id = document.getElementsByClassName('inputbox');
     let serverValue = document.getElementById('server-select').value
     if (serverValue == '') {
@@ -259,7 +259,7 @@ function login() {
 }
 
 function checkID(id, serverValue) {
-    // Checar login antes de salvar.
+    // Check login before saving.
     console.log('My ID is', id);
     fetch(`${serverValue}/user/${id}`)
     .then(response => response.json())
@@ -273,7 +273,7 @@ function checkID(id, serverValue) {
     .catch((error) => {
         localStorage.setItem('userid', '');
         localStorage.setItem('server', '');
-        alert('Falha ao realizar a conexão, tente novamente.');
+        alert('Connection failed, please try again.');
         console.error('Error:', error);
     });
 }
@@ -397,7 +397,7 @@ function searchItem(name, item, fullurl) {
         var searchElements = document.getElementById('searchElements');
         searchElements.innerHTML = '';
         if (avatarList.data.length == 0) {
-            alert('Sem resultados');
+            alert('No results.');
         }
         avatarList.data.forEach((item, i) => {
             let link = document.createElement("a");
