@@ -11,7 +11,7 @@ div#koganotes {
 }
 div#koganotes .notes_card {
     width: 100%;
-    height: 207px;
+    /*height: 220px;*/
     padding: 6px;
     border-radius: 5px;
     background-color: #353b48;
@@ -42,6 +42,12 @@ div#koganotes #saveNote {
     background-color: #4CAF50;
     border-style: none;
     text-align: center;
+    margin: 0 70%;
+}
+
+div#koganotes .notetypeBox {
+    width: 100%;
+    height: 30px;
 }
 
 div#koganotes #typeNoteName {
@@ -56,5 +62,35 @@ div#koganotes .notesLayout {
 
 div#notesArea {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+
+div#notesArea .notes_card {
+    /*height: 250px;*/
+    margin-bottom: 30px;
+}
+
+div#notesArea .deleteNoteButton {
+    width: 30px;
+    display: block;
+    margin: 0 90%;
+}
+
+div#notesArea .updateNoteButton {
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #4CAF50;
+    border-style: none;
+    text-align: center;
+    margin: 0 70%;
+}
+
+div#koganotes textarea.notetypeBox {
+    width: 100%;
+    height: 75px;
+    resize: none;
+    border-style: dashed;
+    background-color: #353b48;
+    color: white;
 }

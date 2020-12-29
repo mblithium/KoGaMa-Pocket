@@ -6,14 +6,14 @@ div#aboutpage {
     justify-content: center;
 }
 
-#notes {
+#aboutNotes {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
     align-items: center;
     padding: 3px, 0, 3px, 30px;
 }
-#notes #dev {
+#aboutNotes #dev {
     text-align: right;
     width: 100%;
     display: none;

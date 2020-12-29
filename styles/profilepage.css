@@ -1,0 +1,32 @@
+.userName h1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+#badges img {
+    width: 26px;
+}
+
+.infos {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+}
+.infos .element {
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    background-color: none;
+    flex-grow: 1;
+}
+
+.infos .element b {
+    font-size: 15px;
+}
+
+.infos .element img {
+    width: 32px;
+}

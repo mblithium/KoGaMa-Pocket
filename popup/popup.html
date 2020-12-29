@@ -19,7 +19,7 @@
                 <img src="../img/error.png" id="logout" title="Click here to disconnect"/>
                 <img src="../img/back.png" id="back" title="Click here to return to the previous screen"/>
                 <img src="../img/search.png" class="pages" id="searchPageActive" title="Click here to search anything"/>
-                <img src="../img/notebook.png" class="hidden" id="notes"/>
+                <img src="../img/notebook.png" class="pages" id="notes"/>
                 <img src="../img/info.png" class="pages" id="about" title="Click here to see information about this addon."/> 
             </div>
             <dic id="content">
@@ -86,11 +86,11 @@
                 <div id="koganotes">
                     <div id="createNote" class="notes_card">
                         <label for="typeNotes" class="notesLayout">Note name:</label><br>
-                        <input type="text" id="typeNoteName" class="notesLayout" placeholder="Note name here." required><br>
+                        <input type="text" id="typeNoteName" class="notesLayout" placeholder="Note name here."><br>
                         <label for="typeProjectURL" class="notesLayout">Project Link: (Optional)</label>
                         <input type="text" id="typeProjectURL" class="notesLayout" placeholder="Ex. https://www.kogama.com/build/1597412/project/21545154"><br>
                         <label for="typeNotes" class="notesLayout">Create new note:</label>
-                        <textarea id="typeNotes" class="notesLayout" name="typeNotes" maxlength="1000" placeholder="Type your note here." required>
+                        <textarea id="typeNotes" class="notesLayout" name="typeNotes" maxlength="1000" placeholder="Type your note here.">
                         </textarea><br>
                         <input type="button" id="saveNote" value="Save">
                     </div>

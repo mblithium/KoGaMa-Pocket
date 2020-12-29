@@ -12,6 +12,11 @@ document.getElementById('about').addEventListener("click", () => {render('aboutp
 document.querySelector('div#navigation img#notes').addEventListener("click", () => {
     render('koganotesPage')
 })
+document.querySelector('#searchTerms').addEventListener("keydown", (k) => {
+    if (k.key === "Enter") {
+        return search()
+    }
+})
 
 const server = {
     url: localStorage.getItem('server')

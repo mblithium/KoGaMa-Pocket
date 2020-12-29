@@ -1,5 +1,7 @@
 body {
-    background-color: #2f3640;
+    /*background-color: #2f3640;*/
+    background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 400px;
     height: 310px;
     color: white;
@@ -40,10 +42,12 @@ a {
 
 .apptitle {
     position: fixed;
-    background-color: #353b48;
-    padding: 5px;
+    /**background-color: #353b48;**/
+    background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
     width: 100%;
-    height: 35px;
+    height: 40px;
     z-index: 9999;
 }
 .apptitle h1 {
@@ -51,39 +55,11 @@ a {
     text-align: center;
 }
 
-.userName h1 {
-    font-size: 18px;
-    text-align: center;
-}
-
-.infos {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    align-items: center;
-}
-.infos .element {
-    margin: 2px;
-    padding: 2px;
-    text-align: center;
-    background-color: none;
-    flex-grow: 1;
-}
-
-.infos .element img {
-    width: 32px;
-}
-
-#badges img {
-    width: 26px;
-}
-
-.infos .element b {
-    font-size: 15px;
-}
 
 #navigation {
-    background-color: #353b48;
+    /*background-color: #353b48;*/
+    background: -webkit-linear-gradient(to right, #19263d, #28415e); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #19263d, #28415e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 5px;
     position: fixed;
     top: 38px;

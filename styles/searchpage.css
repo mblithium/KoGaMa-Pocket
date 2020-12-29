@@ -10,10 +10,23 @@ div#searchPage div {
 div#searchPage #searchTerms {
     width: auto;
     height: 30px;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: 1px solid;
+    border-color: white;
+    border-radius: 5px;
+    color: black;
+    margin-right: 5px;
 }
 div#searchPage #searchButton {
     width: auto;
     height: 30px;
+    background-color: #4CAF50;
+    border: 1px transparent;
+    border-radius: 5px;
+    color: white;
 }
 
 div#searchPage #searchElements img {
@@ -22,6 +35,13 @@ div#searchPage #searchElements img {
 div#searchPage #searchElements .itensIMG {
     width: 100px;
     border-radius: 6px;
+}
+#searchPage #item-select  {
+    border: hidden;
+    border-radius: 20px;
+    background-color: white;
+    width: 180px;
+    height: 30px;
 }
 
 #searchnextpage {
