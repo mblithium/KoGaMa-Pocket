@@ -1,6 +1,6 @@
 div#koganotes {
     margin-top: 0;
-    padding: 30px;
+    padding: 17px;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@ div#koganotes .notes_card {
     /*height: 220px;*/
     padding: 6px;
     border-radius: 5px;
-    background-color: #353b48;
+    background-color: #2f3640;
     margin: -10px 0px 0px -10px;
 }
 
@@ -77,13 +77,30 @@ div#notesArea .deleteNoteButton {
 }
 
 div#notesArea .updateNoteButton {
+    display: inline;
     width: 80px;
     height: 30px;
     color: white;
     background-color: #4CAF50;
     border-style: none;
     text-align: center;
-    margin: 0 70%;
+    margin: 10 2;
+    float: right;
+    display: block;
+}
+
+div#notesArea .linkNoteButton {
+    display: inline;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: #3498db;
+    text-decoration: none;
+    border-style: none;
+    text-align: center;
+    margin: 10 2;
+    float: right;
+    display: block;
 }
 
 div#koganotes textarea.notetypeBox {

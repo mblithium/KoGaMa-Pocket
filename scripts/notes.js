@@ -47,16 +47,18 @@ function readNotes() {
         let typeBoxNote = document.createElement('textarea');
         let deleteNoteButton = document.createElement('img');
         let updateNoteButton = document.createElement('input');
+        
 
         deleteNoteButton.src = "../img/error.png";
         deleteNoteButton.className = "deleteNoteButton";
+        deleteNoteButton.title = 'Click here to delete this note.';
         deleteNoteButton.addEventListener("click", () => {
             eraseNote(n);
             return readNotes();
         });
 
         labelName.className = "notesLayout";
-        labelName.innerText = "Note name:";
+        labelName.innerText = "Note/project name:";
         labelLink.className = "notesLayout";
         labelLink.innerText = "Link:";
         labelNote.className = "notesLayout";
@@ -79,9 +81,11 @@ function readNotes() {
         updateNoteButton.type = 'button'
         updateNoteButton.className = 'updateNoteButton'
         updateNoteButton.value = 'Update'
+        updateNoteButton.title = 'Updates changes.'
         updateNoteButton.addEventListener("click", () => {
             return updateNote(n, typeBoxName.value, typeBoxLink.value, typeBoxNote.value)
         })
+
 
         noteCard.appendChild(deleteNoteButton);
         noteCard.appendChild(labelName);
@@ -90,23 +94,28 @@ function readNotes() {
         noteCard.appendChild(typeBoxLink);
         noteCard.appendChild(labelNote);
         noteCard.appendChild(typeBoxNote);
+
+        if (link != '' && link.includes('https://kogama.com.br/build/', 0) || link.includes('https://www.kogama.com/build/', 0) || link.includes('https://friends.kogama.com/build/', 0)) {
+            let archor = document.createElement('a')
+            let linkButton = document.createElement('input');
+
+            archor.href = link;
+            archor.target = '_blank'
+
+            linkButton.type = 'button'
+            linkButton.className = 'linkNoteButton'
+            linkButton.value = 'Access link'
+            linkButton.title = 'Click here to follow the link.'
+
+            archor.appendChild(linkButton);
+            noteCard.appendChild(archor);
+        }
+
         noteCard.appendChild(updateNoteButton)
        
 
         return console.log(noteCard)
     }
-    
-    /*
-    let retrievedNote = localStorage.getItem('notebook');
-    notebook = JSON.parse(retrievedNote);
-    notebook.forEach((v, i) => {
-        console.log('Valor: ', v.name);
-        console.log('Index', i);
-        console.log('-------------');
-        
-    })
-    console.log(notebook)
-    */
 }
 
 // Create notes with a template.
@@ -143,10 +152,17 @@ function createNote(notename, notelink, notetext) {
 function updateNote(id, name, link, text) {
     let retrievedNote = localStorage.getItem('notebook');
     let notebook = JSON.parse(retrievedNote);
-    notebook[id].name = name;
-    notebook[id].link = link;
-    notebook[id].text = text;
-    return localStorage.setItem('notebook', JSON.stringify(notebook));
+    if (name == '' || text == '') {
+        alert('You need to type something in the note name and content.');
+    } else {
+        notebook[id].name = name;
+        notebook[id].link = link;
+        notebook[id].text = text;
+        localStorage.setItem('notebook', JSON.stringify(notebook));
+        return readNotes()
+    }
+    
+    return 
 }
 
 // Erase notes by index.
@@ -175,7 +191,11 @@ function verifyNote() {
     if (newNote.note.value == '' || newNote.name.value == '') {
         alert('You need to type something in the note name and content.');
     } else {
-        return createNote(newNote.name.value, newNote.link.value, newNote.note.value);
+        createNote(newNote.name.value, newNote.link.value, newNote.note.value);
+        newNote.name.value = '';
+        newNote.link.value = '';
+        newNote.note.value = '';
+        return console.log('Creating note...')
     }
 }
 

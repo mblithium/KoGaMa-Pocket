@@ -1,5 +1,3 @@
-// const tester = fetch("../lang/pt-br.json").then(response => response.json()).then(json => console.log(json)); Test of importing a JSON file for translation.
-
 "use strict"; // Enables strict mode to make errors more visible.
 
 // Event Listener

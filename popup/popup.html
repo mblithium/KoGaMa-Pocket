@@ -13,13 +13,13 @@
     <body>
         <div id="app">
             <div class="apptitle">
-                <h1 id="h1">KoGaMa Pocket - ALPHA</h1> <!-- KoGaMa Profile Viewer -->
+                <h1 id="h1">KoGaMa Pocket</h1> <!-- KoGaMa Profile Viewer -->
             </div>
             <div id="navigation">
                 <img src="../img/error.png" id="logout" title="Click here to disconnect"/>
                 <img src="../img/back.png" id="back" title="Click here to return to the previous screen"/>
                 <img src="../img/search.png" class="pages" id="searchPageActive" title="Click here to search anything"/>
-                <img src="../img/notebook.png" class="pages" id="notes"/>
+                <img src="../img/notebook.png" class="pages" id="notes" title="Click here to see your notebook."/>
                 <img src="../img/info.png" class="pages" id="about" title="Click here to see information about this addon."/> 
             </div>
             <dic id="content">
@@ -45,6 +45,9 @@
                     
                 </div>
                 <div id="loginpage">
+                    <div class="pageTitle">
+                        <h1>Connect</h1>
+                    </div>
                     <div>
                         <img class="loginicon" src="../img/user.png"/>
                     </div>
@@ -66,6 +69,9 @@
                     </div>
                 </div>
                 <div id="searchPage">
+                    <div class="pageTitle">
+                        <h1>Search</h1>
+                    </div>
                     <div>
                         <input type="text" id="searchTerms"><input type="button" id="searchButton" value="Search">
                     </div>
@@ -84,8 +90,11 @@
                     </div>
                 </div>
                 <div id="koganotes">
+                    <div class="pageTitle">
+                        <h1>Notebook</h1>
+                    </div>
                     <div id="createNote" class="notes_card">
-                        <label for="typeNotes" class="notesLayout">Note name:</label><br>
+                        <label for="typeNotes" class="notesLayout">Note/project name:</label><br>
                         <input type="text" id="typeNoteName" class="notesLayout" placeholder="Note name here."><br>
                         <label for="typeProjectURL" class="notesLayout">Project Link: (Optional)</label>
                         <input type="text" id="typeProjectURL" class="notesLayout" placeholder="Ex. https://www.kogama.com/build/1597412/project/21545154"><br>
@@ -112,13 +121,16 @@
                         <p> <a href="https://www.flaticon.com/authors/smashicons" target="_blank">flatuicon - Author: smashicons</a></p>
                     </div>
                     <div>
-                        <h1>Dev</h1>
-                        <p><a href="https://github.com/mblithium" target="_blank">mblithium</a></p>
+                        <h1>Developer</h1>
+                        <p><a href="https://github.com/mblithium/KoGaMa-Pocket">Project repository on github.</a></p>
+                        <p><b>Discord:</b> MB_Lithium#2371</p>
+                        <p>If you see a bug I ask you to report it on Github or Discord.</p>
                     </div>
                     <div>
                         <h1>Changelogs:</h1>
                         <p>0.0.0.1 - ALPHA</p>
                         <p>0.0.0.2 - New Style and Notes!</p>
+                        <p>1.0.0.0 - Stable. Bug Fixes and Improvements</p>
                     </div>
                 </div>
                 <div id="errorpage">
