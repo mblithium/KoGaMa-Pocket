@@ -1,6 +1,6 @@
 {
     "name": "KoGaMa Pocket",
-    "version": "0.0.0.2",
+    "version": "1.0",
     "author": "Matheus Bastos",
     "manifest_version": 2,
     "description": "KoGaMa Pocket brings some interesting features to kogama through a popup extension in your browser.",
