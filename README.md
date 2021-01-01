@@ -10,3 +10,6 @@ In this version it was just a test of how a browser extension worked. It was dec
 
 ## 0.0.0.2
 In this version, still in alpha, a notes feature for projects has been added. It is very interesting to learn how to save data in localStorage and recover it, treating and creating elements in the DOM according to what was recovered. Styles have also been changed to make it more beautiful and code improvements.
+
+# 1.0
+First stable version released that has some improvements. The notes have been fixed and now it is also possible to follow the project links with a button.
