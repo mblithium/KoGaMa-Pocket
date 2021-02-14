@@ -1,0 +1,23 @@
+[
+{
+    "TYPE": "MAIN-KGM",
+    "ABOUT": "Testing an item search system on KoGaMa."
+},
+{
+    "SERVER": "BR",
+    "CATEGORY": [
+        {
+            "AVATAR": [
+                {
+                    "LINK": "Link here"
+                }
+            ],
+            "MODEL": [
+                {
+                    "LINK": "Link Here"
+                }
+            ]
+        }
+    ]
+}
+]
