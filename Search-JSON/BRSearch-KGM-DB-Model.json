@@ -1,0 +1,19 @@
+[
+    {
+        "TYPE": "BR-Search-Model",
+        "ABOUT": "Testing an item search system on KoGaMa. BR - Model."
+    },
+    {
+        "CATEGORY": [
+            {
+                "Essential": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BR/Model/Md-Category-Essential.json",
+                "Furniture": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BR/Model/Md-Category-Furniture.json"
+            }
+        ],
+        "INDEX": {
+            "PAGE": 1,
+            "TOTAL": 1,
+            "KEYWORDS": []
+        }
+    }
+]

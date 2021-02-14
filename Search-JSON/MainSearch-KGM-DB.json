@@ -9,12 +9,12 @@
         {
             "AVATAR": [
                 {
-                    "LINK": "Link here"
+                    "LINK": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BRSearch-KGM-DB-Avatar.json"
                 }
             ],
             "MODEL": [
                 {
-                    "LINK": "Link Here"
+                    "LINK": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BRSearch-KGM-DB-Model.json"
                 }
             ]
         }

@@ -1,0 +1,22 @@
+[
+    {
+        "TYPE": "BR-MD-Assential",
+        "ABOUT": "Testing an item search system on KoGaMa. BR - Model - Essential."
+    },
+    {
+        "MODEL": [
+            {
+                "NAME": "Pack Chat para NPC",
+                "LINK": "https://kogama.com.br/marketplace/model/i-6154524/"
+            },
+            {
+                "NAME": "Tourist",
+                "LINK": "https://kogama.com.br/marketplace/model/i-3623079/"
+            }
+        ],
+        "INDEX": {
+            "PAGE": 1,
+            "TOTAL": 1
+        }
+    }
+]

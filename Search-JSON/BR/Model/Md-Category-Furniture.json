@@ -1,0 +1,49 @@
+[
+    {
+        "TYPE": "BR-MD-Furniture",
+        "ABOUT": "Testing an item search system on KoGaMa. BR - Model - Furniture"
+    },
+    {
+        "MODEL": [
+            {
+                "NAME": "Estante de Livros",
+                "LINK": "https://kogama.com.br/marketplace/model/i-5885767/",
+                "ID": "5885767"
+            },
+            {
+                "NAME": "Estante Antiga",
+                "LINK": "https://kogama.com.br/marketplace/model/i-5720912/",
+                "ID": "5720912"
+            },
+            {
+                "NAME": "Estante Antiga 2",
+                "LINK": "https://kogama.com.br/marketplace/model/i-5723186/",
+                "ID": "5723186"
+            },
+            {
+                "NAME": "Prateleira de Madeira",
+                "LINK": "https://kogama.com.br/marketplace/model/i-5563247/",
+                "ID": "5563247"
+            },
+            {
+                "NAME": "Escritório",
+                "LINK": "https://kogama.com.br/marketplace/model/i-6073413/",
+                "ID": "6073413"
+            },
+            {
+                "NAME": "Lavanderia",
+                "LINK": "https://kogama.com.br/marketplace/model/i-6070056/",
+                "ID": "6070056"
+            },
+            {
+                "NAME": "Cozinha",
+                "LINK": "https://kogama.com.br/marketplace/model/i-5596499/",
+                "ID": "5596499"
+            }
+        ],
+        "INDEX": {
+            "PAGE": 1,
+            "TOTAL": 1
+        }
+    }
+]

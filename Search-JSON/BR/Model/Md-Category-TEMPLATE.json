@@ -1,0 +1,19 @@
+[
+    {
+        "TYPE": "BR-MD-TEMPLATE",
+        "ABOUT": "Testing an item search system on KoGaMa. BR - Model - "
+    },
+    {
+        "MODEL": [
+            {
+                "NAME": "",
+                "LINK": ""
+            }
+        ],
+        "INDEX": {
+            "PAGE": 1,
+            "TOTAL": 1,
+            "KEYWORDS": []
+        }
+    }
+]

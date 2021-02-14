@@ -1,0 +1,18 @@
+[
+    {
+        "TYPE": "BR-Search-Avatar",
+        "ABOUT": "Testing an item search system on KoGaMa. BR - Avatar."
+    },
+    {
+        "CATEGORY": [
+            {
+                
+            }
+        ],
+        "INDEX": {
+            "PAGE": 1,
+            "TOTAL": 1,
+            "KEYWORDS": []
+        }
+    }
+]
