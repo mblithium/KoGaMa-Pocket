@@ -27,10 +27,7 @@ a {
 }
 #content {
     position: relative;
-    top: 70px;
-}
-#profileview {
-    display: none;
+    top: 50px;
 }
 
 #avatar {
