@@ -6,8 +6,12 @@
     {
         "CATEGORY": [
             {
-                "Essential": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BR/Model/Md-Category-Essential.json",
-                "Furniture": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BR/Model/Md-Category-Furniture.json"
+                "NAME": "Essential",
+                "LINK": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BR/Model/Md-Category-Essential.json"
+            },
+            {
+                "NAME": "Furniture",
+                "LINK": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BR/Model/Md-Category-Furniture.json"
             }
         ],
         "INDEX": {
