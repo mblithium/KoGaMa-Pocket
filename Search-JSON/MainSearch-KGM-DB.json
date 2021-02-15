@@ -5,19 +5,9 @@
 },
 {
     "SERVER": "BR",
-    "CATEGORY": [
-        {
-            "AVATAR": [
-                {
-                    "LINK": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BRSearch-KGM-DB-Avatar.json"
-                }
-            ],
-            "MODEL": [
-                {
-                    "LINK": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BRSearch-KGM-DB-Model.json"
-                }
-            ]
-        }
-    ]
+    "CATEGORY": {
+            "AVATAR": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BRSearch-KGM-DB-Avatar.json",   
+            "MODEL": "https://raw.githubusercontent.com/mblithium/KoGaMa-Pocket/gh-pages/Search-JSON/BRSearch-KGM-DB-Model.json"
+    }    
 }
 ]
