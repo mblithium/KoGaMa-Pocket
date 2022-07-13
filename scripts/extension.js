@@ -380,7 +380,11 @@ function searchItem(name, item, fullurl) {
     let avatarList = '';
     let url = '';
     if (typeof(fullurl) === 'undefined') {
-        url = `${server.url}/model/market/?q=${name}&category=${item}`;
+        if (item === "avatar") {
+            url = `${server.url}/model/market/?category=${item}&name=${name}`;
+        } else {
+            url = `${server.url}/model/market/?q=${name}&category=${item}`;
+        }
         console.log(url);
     } else {
         url = fullurl;
